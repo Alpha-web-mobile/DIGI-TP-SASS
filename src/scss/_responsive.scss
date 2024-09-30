@@ -1,0 +1,22 @@
+
+@mixin lg--screen(){
+    @media(max-width:1366px) {
+        @content;
+        
+    }
+};
+
+@mixin md-screen(){
+    @media(max-width:1024px) {
+        @content;
+        
+    }
+};
+
+
+@mixin sm-screen(){
+    @media(max-width:738px) {
+        @content;
+        
+    }
+};
